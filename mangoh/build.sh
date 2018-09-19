@@ -21,7 +21,6 @@ case $ARCH in
 	exit
 	;;
 esac
-SYSROOT=$WP76XX_SYSROOT
 CROSSDIR=$SYSROOT/../x86_64-pokysdk-linux/usr/bin/arm-poky-linux
 CC=$CROSSDIR/arm-poky-linux-gcc
 CXX=$CROSSDIR/arm-poky-linux-g++
